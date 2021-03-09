@@ -1,0 +1,18 @@
+.center{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.text-sty {
+  text-align: center;
+    margin-top: 43px;
+}
+.inp-wid{
+  width: 300px;
+    border-radius: 7px;
+    background: #f7f7f7;
+}
+
+.text-mar {
+  margin-top: 20px;
+}

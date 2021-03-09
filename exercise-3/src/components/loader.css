@@ -1,0 +1,56 @@
+
+  
+  .page {
+    background-color: white;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .page .container + .container {
+    margin-top: 70px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  .container .loader {
+    --ball-size: 4px;
+    display: inline-flex;
+  }
+  .container .loader .ball {
+    width: var(--ball-size);
+    height: var(--ball-size);
+    background-color: black;
+    border-radius: 50%;
+    animation: 1s ease-in-out 0s infinite alternate none running grow;
+  }
+  .container .loader .ball.second {
+    animation-delay: 0.3s;
+  }
+  .container .loader .ball.third {
+    animation-delay: 0.6s;
+  }
+  .container .loader .ball + .ball {
+    margin-left: calc(var(--ball-size) * 4);
+  }
+  .container .loader.ease-in ball {
+    animation-timing-function: ease-in;
+  }
+  .container .loader.ease-out ball {
+    animation-timing-function: ease-out;
+  }
+  .container .loader.ease-in-out-circular ball {
+    animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(3);
+    }
+  }

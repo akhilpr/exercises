@@ -1,0 +1,46 @@
+.time {
+    font-family: Roboto-Bold;
+    font-size: 84px;
+    color: #37474F;
+    height: 90vh;
+  position: relative;
+}
+
+.center {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  }
+
+  .btn1 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 46%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 8px 25px 8px 25px;
+    border-radius: 6px;
+    background-color: #5600e8;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 56%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 8px 25px 8px 25px;
+    border-radius: 6px;
+    background-color: #5600e8;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+  }
