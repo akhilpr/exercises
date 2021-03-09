@@ -1,5 +1,5 @@
 # exercises
 
-run npm intall
+run npm install
 
 run npm start
